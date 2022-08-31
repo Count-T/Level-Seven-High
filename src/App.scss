@@ -1,0 +1,34 @@
+@import "./Variables/Variables.scss";
+*{
+    margin: 0%;
+}
+.navbar{
+    width:100%;
+    height:80px;
+    background-color: $navbarColour;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li{
+    color: $navbarTextColour;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    margin:10px;
+}
+
+.navbar li:hover{
+    background-color: aqua;
+}
+
+
+.navlink{
+    text-decoration: none;
+    color: $navbarTextColour;
+}
+
+#title{
+    margin-left: 2rem;
+}

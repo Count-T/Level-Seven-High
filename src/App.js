@@ -5,12 +5,13 @@ import Math from "./Components/Math";
 import Physics from "./Components/Physics";
 import Chemistry from "./Components/Chemistry";
 import ComputerScience from "./Components/ComputerScience";
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar></Navbar>
+    <div>
+      <Navbar></Navbar></div>
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/Math" element={<Math />}></Route>

@@ -5,28 +5,28 @@ function Navbar() {
   return (
     <ul className="navbar">
       <li>
-        <Link to="/">
+        <Link className = "navlink" id="title" to="/">
           <h1>Level Seven High</h1>
         </Link>
       </li>
       <li>
-        <Link to="/Math">
+        <Link className = "navlink" to="/Math">
           <h1>Math</h1>
         </Link>
       </li>
       <li>
-        <Link to="/Physics">
+        <Link className = "navlink" to="/Physics">
           <h1>Physics</h1>
         </Link>
       </li>
       <li>
-        <Link to="/Chemistry">
+        <Link className = "navlink" to="/Chemistry">
           <h1>Chemistry</h1>
         </Link>
       </li>
       <li>
-        <Link to="/ComputerScience">
-          <h1>ComputerScience</h1>
+        <Link className = "navlink" to="/ComputerScience">
+          <h1>Computer Science</h1>
         </Link>
       </li>
     </ul>

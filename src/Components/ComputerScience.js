@@ -1,7 +1,7 @@
 import React from "react";
 
 function ComputerScience() {
-  return <div>ComputerScience</div>;
+  return <div>Computer Science</div>;
 }
 
 export default ComputerScience;
